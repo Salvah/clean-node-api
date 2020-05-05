@@ -12,5 +12,13 @@
   },
   "scripts": {
     "test": "jest"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
