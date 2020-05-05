@@ -4,7 +4,19 @@
   "main": "index.js",
   "author": "= <=>",
   "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "standard"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.2",
     "standard": "^14.3.3"
   }
 }
